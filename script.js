@@ -619,29 +619,29 @@ end: `250% top`,
 }
 canvas2()
 
-
-gsap.to(".page7-cir",{
-  scrollTrigger:{
+gsap.to(".page7-cir", {
+  scrollTrigger: {
     trigger:`.page7-cir`,
+    scroller:`#main`,
     start:`top center`,
     end:`bottom top`,
-    scroller:`#main`,
-    scrub:.5
+//    markers:true,
+    scrub: 0.5,
   },
-  scale:1.5
+  scale: 1.5,
 })
 
-
-
-gsap.to(".page7-cir-inner",{
-  scrollTrigger:{
-    trigger:`.page7-cir-inner`,
+gsap.to(".page7-inner-cir", {
+  scrollTrigger: {
+    trigger:`.page7-inner-cir`,
+    scroller:`#main`,
     start:`top center`,
     end:`bottom top`,
-    scroller:`#main`,
-    scrub:.5
+//    markers:true,
+    scrub: 0.5,
   },
-  backgroundColor : `#0a3bce91`,
+  backgroundColor: `#0a3bce91`,
 })
+
 
 
