@@ -223,3 +223,20 @@ html,body{
     border-radius: 50%;
 }
 
+#page8>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page8{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+    position: absolute;
+}
+
+#page8>button{
+    border-radius: 50px;
+    background-color:#0a3cce;
+
+}
