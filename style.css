@@ -223,20 +223,113 @@ html,body{
     border-radius: 50%;
 }
 
+#page8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+}
 #page8>video{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-#page8{
+.page8-bottom{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: a;
+}
+.page8-bottom>h1{
+    color: #fff;
+    margin-bottom: 2vw;
+    font-size: 6.2vw;
+    font-weight: 100;
+    font-family: b;
+}
+.page8-bottom>button{
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #0a3cce;
+}
+#page9{
+    display: flex;
+    position: relative;
     height: 100vh;
     width: 100vw;
     background-color: #0a3cce;
+}
+.left9{
+    position: relative;
+    height: 100%;
+    width: 40%;
+
+}
+.right9{
+    position: relative;
+    height: 100%;
+    width: 60%;
+}
+.left9>h1{
     position: absolute;
+    top: 50%;
+    right: 5%;
+    font-family: a;
+    font-size: 5vw;
+    transform: translateY(-50%);
+    font-weight: 100;
+    color: #fff;
+    line-height: 1;
+}
+.right9-center{
+    position: absolute;
+    border-radius: 10px;
+    height: 55%;
+    width: 85%;
+    transform: translateY(-50%);
+    top: 50%;
+    left:5%;
+    background-color: black;
+    background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+    background-size: cover;
+}
+#page10{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a3cce;
+}
+.right10{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    left: 40%;
 }
 
-#page8>button{
-    border-radius: 50px;
-    background-color:#0a3cce;
-
+.right10-inner{
+    font-family: b;
+    height: 33.3%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
 }
+.right10-inner>h1{
+    font-size: 1.6vw;
+    font-weight: 400;
+}
+.right10-inner>p{
+    font-size: 1.4vw;
+    margin-top: 2vw;
+    width: 85%;
+    line-height: 1.8;
+    font-weight: 100;
+    font-family: b;
+}
+
+
