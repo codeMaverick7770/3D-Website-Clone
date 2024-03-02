@@ -320,8 +320,8 @@ html,body{
     flex-direction: column;
 }
 .right10-inner>h1{
-    font-size: 1.6vw;
-    font-weight: 400;
+
+    font-size: 1.8vw;
 }
 .right10-inner>p{
     font-size: 1.4vw;
@@ -331,5 +331,85 @@ html,body{
     font-weight: 100;
     font-family: b;
 }
+#page11{
+    position: relative;
+    height: 120vh;
+    width: 100vw;
+    background-color: white;
+    font-family: b;
+}
+#page11>h1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: black;
+    font-size: 6vw;
+    font-weight: 100;
 
+}
+.page11-inner{
+    display: flex;
+    position: relative;
+    margin-bottom: 2vw;
+    height: 21%;
+    width: 100%;
+    top: 24%;
+    overflow: hidden;
+}
+.page11-inner-left{
+    position: relative;
+    border-radius: 20px;
+    height: 100%;
+    width: 40%;
+    left: 5%;
+}
+.page11-inner-left>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+.page11-inner-right{
+    position: absolute;
+    height: 100%;
+    width: 50%;    left: 50%;
+}
+.page11-inner-right>h1{
+    position: absolute;
+    font-family: b;
+    font-weight: 100;
+    font-size: 1.6vw;
+    top: 54%
+}
+.page11-inner-right>h4{
+    position: absolute;
+    top: 40%;
+    font-weight: 100;
+}
+#page12{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a2b90;
+}
+#page12>h1{
+    position: absolute;
+    top: 19%;
+    right: 20%;
+    font-family: b;
+    font-weight: 100;
+    font-size: 6vw;
+    color: #fff;
+}
+#page12>p{
+    position: absolute;
+    top:38%;
+    right: 19%;
+    color: #fff;
+    font-family: b;
+    font-weight: 100;
+    font-size: 1.2vw;
+}
+    
 
