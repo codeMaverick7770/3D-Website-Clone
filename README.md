@@ -11,7 +11,6 @@ Welcome to Magma, the next-generation real estate management tool that redefines
 - Setup Instructions
 - Usage
 - Contributing
-- License
 ## Introduction
 
 Magma is a frontend web application developed as a part of a web development project. It provides users with an interactive digital twin of real estate properties, enabling seamless exploration and visualization of property details.
