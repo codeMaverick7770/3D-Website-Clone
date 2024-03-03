@@ -45,7 +45,7 @@ To run the Magma Real Estate Management Tool frontend locally, follow these step
 
 2. Open the project in your preferred code editor.
 
-3. Open index.html in a web browser.
+3. Open index.html in a web browser or open the live link : https://codemaverick7770.github.io/magma-digital-twin/
 
 4. Explore the digital twin of the real estate property and interact with the user interface.
 
